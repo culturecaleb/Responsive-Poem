@@ -1,0 +1,131 @@
+/*Mobile First Design*/
+
+
+* {
+	font-family: 'Vollkorn', serif;
+}
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+
+h1 {
+	font-style: italic;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.defines, .wealth {
+	font-size: 1.3em;
+}
+
+.text-section {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 60px;
+	align-items: center;
+}
+.image-section {
+	text-align: center;
+}
+
+.poem {
+	width: 96%;
+}
+
+.credits {
+	display: flex;
+	justify-content: center;
+}
+
+.credits p {
+	padding-right: 5px;
+	white-space: nowrap;
+}
+
+.by {
+	font-style: italic;
+}
+
+.photographer {
+	font-style: italic;
+	font-weight: 600;
+}
+
+.photograph {
+	width: 95%;
+	max-width: 420px;
+}
+
+.instagram {
+	max-width: 28px;
+}
+
+.logo {
+	max-width: 80px;
+}
+
+/*Media Queries*/
+@media (min-width: 786px) {
+		body {
+			margin: 0;
+		}
+		.container {
+			flex-direction: row;
+			border: 10px #000 solid;
+			padding: 30px;
+		}
+		.text-sectiorn {
+			margin-bottom: 0;
+		}
+		.text-section, 
+		.image-section {
+			flex: 1;
+		}
+		h1,
+		.defines,
+		.wealth {
+			margin: 10px;
+		}
+		.image-section {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+		}
+		.photograph {
+			align-items: center;
+		}
+		.copyright {
+
+		}
+		.photograph {
+			max-width: 800px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
